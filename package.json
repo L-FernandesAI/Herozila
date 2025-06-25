@@ -1,0 +1,16 @@
+{
+  "name": "herozila",
+  "version": "1.0.0",
+  "description": "Site do Herozila, fotografia automotiva direta da quebrada",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
+  },
+  "author": "Herozila",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
+  }
+}

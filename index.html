@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Herozila</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black text-white">
+    <!-- HERO SECTION -->
+    <div
+      class="relative min-h-screen bg-cover bg-center bg-no-repeat"
+      style="background-image: url('img/Herozila1.png')"
+    >
+      <!-- OVERLAY ESCURO -->
+      <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
+
+      <!-- CONTEÚDO GERAL -->
+      <div class="relative z-10">
+        <!-- NAVBAR FIXA NO TOPO -->
+        <nav
+          class="fixed top-0 w-full bg-black bg-opacity-80 text-white px-6 py-2 flex justify-center items-center z-50"
+        >
+          <!-- Links Esquerda colados no logo -->
+          <div class="flex space-x-6 text-lg font-bold absolute left-[25%]">
+            <a href="#" class="hover:text-gray-400 transition">Início</a>
+            <a href="#" class="hover:text-gray-400 transition">Sobre mim</a>
+            <a href="#" class="hover:text-gray-400 transition">Galeria</a>
+          </div>
+
+          <!-- Logo Central com margem reduzida -->
+          <div class="mt-2">
+            <img src="img/logo.png" alt="Logo" class="h-24 w-auto" />
+          </div>
+
+          <!-- Links Direita espelhados -->
+          <div class="flex space-x-6 text-lg font-bold absolute right-[21%]">
+            <a href="#" class="hover:text-gray-400 transition">Serviços</a>
+            <a href="#" class="hover:text-gray-400 transition"
+              >Pegue suas fotos</a
+            >
+            <a href="#" class="hover:text-gray-400 transition">Contato</a>
+          </div>
+        </nav>
+
+        <!-- BLOCO PRINCIPAL -->
+        <section
+          class="w-full h-screen flex items-center justify-between px-10 pt-24"
+        >
+          <!-- ESQUERDA: Título + Card -->
+          <div class="w-1/2 flex flex-col items-center justify-center">
+            <h2 class="text-white text-4xl font-extrabold mb-6">
+              ÚLTIMOS CLICKS!
+            </h2>
+
+            <!-- CARD COM SETAS -->
+            <div
+              class="w-[500px] h-[500px] bg-black bg-opacity-60 flex items-center justify-between px-6"
+            >
+              <button
+                class="text-4xl text-white hover:text-gray-400 transition"
+              >
+                &#10094;
+              </button>
+
+              <div
+                class="w-[80%] h-[80%] flex items-center justify-center text-white"
+              >
+                <!-- Coloca a imagem aqui se quiser -->
+              </div>
+
+              <button
+                class="text-4xl text-white hover:text-gray-400 transition"
+              >
+                &#10095;
+              </button>
+            </div>
+          </div>
+
+          <!-- DIREITA: Botão -->
+          <div class="w-1/2 flex items-center justify-center">
+            <div class="text-center text-white">
+              <p class="text-lg font-bold uppercase mb-2">CLIQUE ABAIXO E</p>
+              <button
+                class="mt-2 px-10 py-4 bg-black text-white text-xl font-extrabold rounded-full border-2 border-white hover:bg-white hover:text-black transition-all"
+              >
+                PEGUE SUAS FOTOS
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- SOBRE MIM SECTION COM FUNDO REPETIDO -->
+    <section
+      class="relative w-full flex items-center justify-center px-10 py-20 space-x-10 bg-cover bg-center bg-no-repeat"
+      style="background-image: url('img/Herozila1.png')"
+    >
+      <!-- OVERLAY -->
+      <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
+
+      <!-- CONTEÚDO SOBRE MIM -->
+      <div
+        class="relative z-10 flex w-full justify-center items-center space-x-10"
+      >
+        <!-- ESQUERDA: imagem -->
+        <div class="w-2/5 flex justify-center">
+          <img
+            src="img/fotoperfil.PNG"
+            alt="Herozila"
+            class="rounded shadow-lg max-w-full"
+          />
+        </div>
+
+        <!-- DIREITA: Texto com aspas e fundo escuro -->
+        <div
+          class="w-3/5 bg-black bg-opacity-50 p-10 rounded text-white text-lg relative leading-relaxed italic"
+        >
+          <!-- Aspas Abertura -->
+          <div
+            class="text-[80px] absolute -top-10 left-0 text-white opacity-40 font-bold"
+          >
+            &#10077;
+          </div>
+
+          <p>
+            Desde pequeno, sempre fui apaixonado pelo mundo automotivo, tanto
+            por motos quanto por carros. Tendo motor, pra mim, já é motivo
+            suficiente pra admirar.
+            <br /><br />
+            Comecei na fotografia automotiva de forma virtual, dentro dos jogos.
+            Foi ali que percebi o quanto gostava de registrar detalhes, ângulos
+            e momentos.
+            <br /><br />
+            A partir disso, decidi correr atrás do meu sonho: conquistar uma
+            câmera. Hoje, com a minha Canon e meus demais equipamentos, desbravo
+            diversos cenários, eventos e projetos.
+            <br /><br />
+            Fotografo de tudo, desde um Fusca até uma Ferrari, Lamborghini...<br />
+            Se tem história e motor, merece ser eternizado.
+            <br /><br />
+            Se tiver interesse, é só entrar em contato. Todo sonho merece ser
+            registrado com olhar e intenção.
+            <br /><br />
+            Uma frase que sempre carrego comigo:
+          </p>
+
+          <p class="mt-6 text-lg not-italic font-medium">
+            "Eu acredito que a fotografia nos permite sentir a sensação de boas
+            recordações."
+          </p>
+
+          <!-- Aspas Fechamento -->
+          <div
+            class="text-[80px] absolute -bottom-8 right-0 text-white opacity-40 font-bold"
+          >
+            &#10078;
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- GALERIA -->
+    <!-- GALERIA -->
+    <!-- GALERIA -->
+    <section
+      class="w-full h-screen flex items-center justify-center px-10 pt-20 bg-[url('img/Supra.png')] bg-cover bg-center bg-no-repeat relative"
+    >
+      <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
+      <div class="relative z-10 w-full flex flex-col items-center">
+        <img src="img/tituloGaleria.png" alt="Galeria" class="mb-6" />
+
+        <!-- Container com setas + grade -->
+        <div
+          class="w-[90%] h-[500px] bg-black bg-opacity-60 flex items-center justify-between px-4 relative"
+        >
+          <!-- Seta Esquerda -->
+          <button
+            class="text-4xl text-white hover:text-gray-400 transition z-10"
+          >
+            &#10094;
+          </button>
+
+          <!-- Grid 4x2 no centro -->
+          <div class="w-[90%] h-[90%] grid grid-cols-4 grid-rows-2 gap-2">
+            <div class="bg-white bg-opacity-10">
+              <img src="img/galeria1.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="bg-white bg-opacity-10">
+              <img src="img/galeria2.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="bg-white bg-opacity-10">
+              <img src="img/galeria3.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="bg-white bg-opacity-10">
+              <img src="img/galeria4.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="bg-white bg-opacity-10">
+              <img src="img/galeria5.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="bg-white bg-opacity-10">
+              <img src="img/galeria6.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="bg-white bg-opacity-10">
+              <img src="img/galeria7.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="bg-white bg-opacity-10">
+              <img src="img/galeria8.jpg" class="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          <!-- Seta Direita -->
+          <button
+            class="text-4xl text-white hover:text-gray-400 transition z-10"
+          >
+            &#10095;
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="relative bg-cover bg-center bg-no-repeat text-white py-20 px-6"
+      style="background-image: url('img/Blueshark.png')"
+    >
+      <!-- Escuridão por cima do fundo -->
+      <div class="absolute inset-0 bg-black/70 z-0"></div>
+
+      <div class="relative z-10 max-w-7xl mx-auto">
+        <!-- Título -->
+        <div class="flex items-center mb-16">
+          <h2 class="text-5xl font-extrabold border-l-8 border-white pl-4">
+            SERVIÇOS
+          </h2>
+          <div
+            class="ml-4 w-28 h-1 bg-gradient-to-r from-white via-blue-500 to-transparent"
+          ></div>
+        </div>
+
+        <!-- Cards -->
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <div class="flex flex-col items-start">
+            <!-- Quadrado com imagem de fundo e overlay transparente -->
+            <div
+              class="relative w-full h-[200px] bg-cover bg-center rounded-sm overflow-hidden"
+              style="background-image: url('URL-IMG-EUROCLICKS')"
+            >
+              <div class="absolute inset-0 bg-white/20"></div>
+            </div>
+
+            <!-- Texto fora da imagem -->
+            <div class="mt-4">
+              <h3 class="text-2xl font-bold flex items-center mb-1">
+                <span class="mr-2">🚦</span> Euro Clicks
+              </h3>
+              <p class="font-semibold text-sm mb-2">
+                Fotografia espontânea na lendária Avenida Europa.
+              </p>
+              <p class="text-sm leading-snug">
+                Fico posicionado nos melhores pontos da Avenida Europa, em São
+                Paulo, registrando os carros que passam por lá. Se o seu carro
+                foi clicado, aqui é o lugar certo pra encontrar esse momento
+                eternizado.
+              </p>
+            </div>
+
+            <!-- Botão -->
+            <button
+              class="mt-4 border-2 border-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-white hover:text-black transition"
+            >
+              PEGUE SUAS FOTOS
+            </button>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="flex flex-col items-start">
+            <div
+              class="relative w-full h-[200px] bg-cover bg-center rounded-sm overflow-hidden"
+              style="background-image: url('URL-IMG-CARMEET')"
+            >
+              <div class="absolute inset-0 bg-white/20"></div>
+            </div>
+
+            <div class="mt-4">
+              <h3 class="text-2xl font-bold flex items-center mb-1">
+                <span class="mr-2">🏁</span> Car Meet n’ Clicks
+              </h3>
+              <p class="font-semibold text-sm mb-2">
+                Eventos, encontros, exposições e muito motor envolvido.
+              </p>
+              <p class="text-sm leading-snug">
+                Realizo cobertura fotográfica completa de eventos automotivos.
+                Registro não só os carros, mas também os detalhes, os
+                bastidores, o público e toda a atmosfera do momento.
+              </p>
+            </div>
+
+            <button
+              class="mt-4 border-2 border-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-white hover:text-black transition"
+            >
+              CONTRATAR SERVIÇO
+            </button>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="flex flex-col items-start">
+            <div
+              class="relative w-full h-[200px] bg-cover bg-center rounded-sm overflow-hidden"
+              style="background-image: url('URL-IMG-DETAILSBYHERO')"
+            >
+              <div class="absolute inset-0 bg-white/20"></div>
+            </div>
+
+            <div class="mt-4">
+              <h3 class="text-2xl font-bold flex items-center mb-1">
+                <span class="mr-2">📸</span> Details By Hero
+              </h3>
+              <p class="font-semibold text-sm mb-2">
+                Seu carro, seu estilo, o cenário que você escolher.
+              </p>
+              <p class="text-sm leading-snug">
+                Um ensaio exclusivo, feito sob medida para o seu carro. A gente
+                escolhe o local juntos e eu garanto cliques que valorizam cada
+                detalhe — da pintura ao perfil dos pneus.
+              </p>
+            </div>
+
+            <button
+              class="mt-4 border-2 border-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-white hover:text-black transition"
+            >
+              CONTRATAR SERVIÇO
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
