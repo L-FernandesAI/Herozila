@@ -335,5 +335,199 @@
         </div>
       </div>
     </section>
+    <!-- Seção "Pegue Suas Fotos" replicando o visual da imagem -->
+    <section
+      class="relative bg-cover bg-center"
+      style="background-image: url('img/CivicRosa.png')"
+    >
+      <!-- Overlay escuro -->
+      <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+      <!-- Conteúdo principal -->
+      <div
+        class="relative z-10 max-w-6xl mx-auto px-8 py-16 grid grid-cols-2 gap-8"
+      >
+        <!-- Carrossel de imagens -->
+        <div class="relative">
+          <div
+            class="absolute inset-y-1/2 left-0 transform -translate-y-1/2 p-2 bg-black bg-opacity-50 rounded-full cursor-pointer"
+          >
+            <!-- seta esquerda -->
+            <span class="text-white text-2xl">‹</span>
+          </div>
+          <div class="overflow-hidden rounded-md border border-gray-700">
+            <!-- Aqui entra o slide ou imagem fixa -->
+            <img
+              src="/path/to/last-click.jpg"
+              alt="Últimos Clicks"
+              class="block w-full object-cover"
+            />
+          </div>
+          <div
+            class="absolute inset-y-1/2 right-0 transform -translate-y-1/2 p-2 bg-black bg-opacity-50 rounded-full cursor-pointer"
+          >
+            <!-- seta direita -->
+            <span class="text-white text-2xl">›</span>
+          </div>
+        </div>
+
+        <!-- Chamada para ação -->
+        <div
+          class="flex flex-col justify-center items-start space-y-6 text-white"
+        >
+          <h2 class="text-3xl font-extrabold uppercase">Pegue suas Fotos</h2>
+          <p class="text-xl font-semibold">Últimos Clicks!</p>
+
+          <!-- Botão receber alta qualidade -->
+          <a
+            href="https://wa.me/"
+            target="_blank"
+            class="inline-flex items-center bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-full transition"
+          >
+            <svg class="w-6 h-6 mr-2 fill-current" viewBox="0 0 24 24">
+              <!-- ícone WhatsApp simples -->
+            </svg>
+            RECEBA EM ALTA QUALIDADE POR WHATSAPP E E-MAIL!
+          </a>
+
+          <!-- Botão principal -->
+          <a
+            href="#"
+            class="inline-block bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-bold px-8 py-4 rounded-full transition uppercase"
+          >
+            Pegue suas fotos
+          </a>
+
+          <!-- Ícones de pagamento -->
+          <div class="flex items-center space-x-4 mt-8">
+            <img src="/icons/mastercard.png" alt="Mastercard" class="h-8" />
+            <img src="/icons/elo.png" alt="Elo" class="h-8" />
+            <img src="/icons/amex.png" alt="American Express" class="h-8" />
+            <img src="/icons/pix.png" alt="Pix" class="h-8" />
+          </div>
+
+          <!-- Pequeno texto LGPD -->
+          <p class="text-xs text-gray-400 mt-4">
+            Seus dados estão 100% protegidos conforme a Lei Geral de Proteção de
+            Dados Pessoais (Lei nº 13.709/2018 – LGPD). Aqui a privacidade vem
+            junto com a qualidade.
+          </p>
+        </div>
+      </div>
+
+      <!-- Botão flutuante WhatsApp -->
+      <a
+        href="https://wa.me/"
+        target="_blank"
+        class="fixed bottom-6 right-6 w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center shadow-lg z-20"
+      >
+        <svg class="w-8 h-8 fill-current text-white" viewBox="0 0 24 24">
+          <!-- ícone WhatsApp simples -->
+        </svg>
+      </a>
+    </section>
+    <!-- Seção "Contato" com Tailwind legadonhada -->
+    <section
+      id="contact"
+      class="relative bg-cover bg-center"
+      style="background-image: url('img/IMG_6472.JPG')"
+    >
+      <!-- Overlay escuro -->
+      <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+      <!-- Cabeçalho da seção -->
+      <div class="relative z-10 max-w-6xl mx-auto px-8 py-16">
+        <div class="flex items-center mb-12">
+          <div class="bg-white px-4 py-2 rounded-r-lg">
+            <h2 class="text-3xl font-extrabold uppercase text-black">
+              Contato
+            </h2>
+          </div>
+          <div class="flex-1 h-2 bg-white ml-4 mr-8"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-white">
+          <!-- Logo e introdução -->
+          <div class="flex flex-col items-center md:items-start">
+            <img
+              src="/path/to/hero-logo.png"
+              alt="Herozila Logo"
+              class="w-48 mb-4"
+            />
+            <p class="italic text-lg">Desde 2020</p>
+          </div>
+
+          <!-- Conteúdo e contatos -->
+          <div class="flex flex-col justify-between">
+            <!-- Texto de agradecimento -->
+            <div class="mb-8">
+              <p>
+                Obrigado por visitar meu site e conhecer meu trabalho!<br />
+                Se chegou até aqui, já fico feliz — sinal de que a paixão por
+                motores e boas fotos nos conecta.<br />
+                Se você tem alguma dúvida, quer pedir um orçamento, agendar um
+                ensaio ou simplesmente trocar uma ideia sobre carros e fotos, é
+                só me chamar.<br />
+                Estou sempre disponível pra ouvir, conversar e eternizar o que
+                um dia já foi seu sonho.
+              </p>
+              <p class="mt-4 font-bold">— Herozila.</p>
+            </div>
+
+            <!-- Lista de redes sociais -->
+            <div
+              class="flex flex-col sm:flex-row sm:space-x-8 space-y-4 sm:space-y-0"
+            >
+              <!-- Coluna 1 -->
+              <div class="flex-1">
+                <a
+                  href="https://instagram.com/herozi la"
+                  target="_blank"
+                  class="flex items-center space-x-3 hover:opacity-80"
+                >
+                  <svg class="w-8 h-8 fill-current text-white">
+                    <!-- ícone Insta -->
+                  </svg>
+                  <span class="font-semibold">/Herozila</span>
+                </a>
+                <a
+                  href="https://tiktok.com/@herozi la"
+                  target="_blank"
+                  class="flex items-center space-x-3 mt-4 hover:opacity-80"
+                >
+                  <svg class="w-8 h-8 fill-current text-white">
+                    <!-- ícone TikTok -->
+                  </svg>
+                  <span class="font-semibold">/@Herozila</span>
+                </a>
+              </div>
+              <!-- Coluna 2 -->
+              <div class="flex-1">
+                <a
+                  href="https://youtube.com/@herozi la"
+                  target="_blank"
+                  class="flex items-center space-x-3 hover:opacity-80"
+                >
+                  <svg class="w-8 h-8 fill-current text-white">
+                    <!-- ícone YouTube -->
+                  </svg>
+                  <span class="font-semibold">/@Herozila</span>
+                </a>
+                <a
+                  href="https://wa.me/"
+                  target="_blank"
+                  class="flex items-center space-x-3 mt-4 hover:opacity-80"
+                >
+                  <svg class="w-8 h-8 fill-current text-white">
+                    <!-- ícone WhatsApp -->
+                  </svg>
+                  <span class="italic">Clique para contato.</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
