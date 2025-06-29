@@ -23,7 +23,7 @@
         >
           <!-- Links Esquerda colados no logo -->
           <div class="flex space-x-6 text-lg font-bold absolute left-[25%]">
-            <a href="#" class="hover:text-gray-400 transition">Início</a>
+            <a href="#inicio" class="hover:text-gray-400 transition">Início</a>
             <a href="#" class="hover:text-gray-400 transition">Sobre mim</a>
             <a href="#" class="hover:text-gray-400 transition">Galeria</a>
           </div>
@@ -45,6 +45,7 @@
 
         <!-- BLOCO PRINCIPAL -->
         <section
+          id="Inicio"
           class="w-full h-screen flex items-center justify-between px-10 pt-24"
         >
           <!-- ESQUERDA: Título + Card -->
@@ -92,87 +93,104 @@
       </div>
     </div>
 
-    <!-- SOBRE MIM SECTION COM FUNDO REPETIDO -->
     <section
-      class="relative w-full flex items-center justify-center px-10 py-20 space-x-10 bg-cover bg-center bg-no-repeat"
-      style="background-image: url('img/Herozila1.png')"
+      class="relative w-full flex flex-col items-center px-10 py-20 bg-[url('img/Herozila1.png')] bg-cover bg-center bg-no-repeat"
     >
       <!-- OVERLAY -->
       <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
 
-      <!-- CONTEÚDO SOBRE MIM -->
-      <div
-        class="relative z-10 flex w-full justify-center items-center space-x-10"
-      >
-        <!-- ESQUERDA: imagem -->
-        <div class="w-2/5 flex justify-center">
-          <img
-            src="img/fotoperfil.PNG"
-            alt="Herozila"
-            class="rounded shadow-lg max-w-full"
-          />
+      <div class="relative z-10 w-full max-w-7xl">
+        <!-- CABEÇALHO PADRÃO -->
+        <div class="flex items-center mb-16">
+          <h2 class="text-5xl font-extrabold border-l-8 border-white pl-4">
+            SOBRE MIM
+          </h2>
+          <div
+            class="ml-4 w-28 h-1 bg-gradient-to-r from-white via-blue-500 to-transparent"
+          ></div>
         </div>
 
-        <!-- DIREITA: Texto com aspas e fundo escuro -->
+        <!-- CONTEÚDO SOBRE MIM -->
         <div
-          class="w-3/5 bg-black bg-opacity-50 p-10 rounded text-white text-lg relative leading-relaxed italic"
+          class="flex flex-col lg:flex-row items-center lg:items-start space-y-10 lg:space-y-0 lg:space-x-10"
         >
-          <!-- Aspas Abertura -->
-          <div
-            class="text-[80px] absolute -top-10 left-0 text-white opacity-40 font-bold"
-          >
-            &#10077;
+          <!-- ESQUERDA: FOTO DE PERFIL -->
+          <div class="w-full lg:w-2/5 flex justify-center">
+            <img
+              src="img/fotoperfil.PNG"
+              alt="Herozila"
+              class="rounded-lg shadow-xl object-cover max-w-full"
+            />
           </div>
 
-          <p>
-            Desde pequeno, sempre fui apaixonado pelo mundo automotivo, tanto
-            por motos quanto por carros. Tendo motor, pra mim, já é motivo
-            suficiente pra admirar.
-            <br /><br />
-            Comecei na fotografia automotiva de forma virtual, dentro dos jogos.
-            Foi ali que percebi o quanto gostava de registrar detalhes, ângulos
-            e momentos.
-            <br /><br />
-            A partir disso, decidi correr atrás do meu sonho: conquistar uma
-            câmera. Hoje, com a minha Canon e meus demais equipamentos, desbravo
-            diversos cenários, eventos e projetos.
-            <br /><br />
-            Fotografo de tudo, desde um Fusca até uma Ferrari, Lamborghini...<br />
-            Se tem história e motor, merece ser eternizado.
-            <br /><br />
-            Se tiver interesse, é só entrar em contato. Todo sonho merece ser
-            registrado com olhar e intenção.
-            <br /><br />
-            Uma frase que sempre carrego comigo:
-          </p>
-
-          <p class="mt-6 text-lg not-italic font-medium">
-            "Eu acredito que a fotografia nos permite sentir a sensação de boas
-            recordações."
-          </p>
-
-          <!-- Aspas Fechamento -->
+          <!-- DIREITA: TEXTO COM ASPAS -->
           <div
-            class="text-[80px] absolute -bottom-8 right-0 text-white opacity-40 font-bold"
+            class="w-full lg:w-3/5 bg-black bg-opacity-50 p-8 lg:p-12 rounded-lg text-white text-base lg:text-lg italic relative leading-relaxed"
           >
-            &#10078;
+            <!-- Aspas Abertura -->
+            <div
+              class="text-[80px] absolute -top-8 left-4 text-white opacity-30 font-bold"
+            >
+              &#10077;
+            </div>
+
+            <p class="mb-6">
+              Desde pequeno, sempre fui apaixonado pelo mundo automotivo, tanto
+              por motos quanto por carros. Tendo motor, pra mim, já é motivo
+              suficiente pra admirar.
+              <br /><br />
+              Comecei na fotografia automotiva de forma virtual, dentro dos
+              jogos. Foi ali que percebi o quanto gostava de registrar detalhes,
+              ângulos e momentos.
+              <br /><br />
+              A partir disso, decidi correr atrás do meu sonho: conquistar uma
+              câmera. Hoje, com a minha Canon e meus demais equipamentos,
+              desbravo diversos cenários, eventos e projetos.
+              <br /><br />
+              Fotografo de tudo, desde um Fusca até uma Ferrari, Lamborghini...
+              Se tem história e motor, merece ser eternizado.
+              <br /><br />
+              Se tiver interesse, é só entrar em contato. Todo sonho merece ser
+              registrado com olhar e intenção.
+            </p>
+
+            <p class="mt-4 not-italic font-medium">
+              "Eu acredito que a fotografia nos permite sentir a sensação de
+              boas recordações."
+            </p>
+
+            <!-- Aspas Fechamento -->
+            <div
+              class="text-[80px] absolute -bottom-8 right-4 text-white opacity-30 font-bold"
+            >
+              &#10078;
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- GALERIA -->
-    <!-- GALERIA -->
+
     <!-- GALERIA -->
     <section
-      class="w-full h-screen flex items-center justify-center px-10 pt-20 bg-[url('img/Supra.png')] bg-cover bg-center bg-no-repeat relative"
+      class="relative w-full px-10 pt-20 pb-10 bg-[url('img/Supra.png')] bg-cover bg-center bg-no-repeat"
     >
+      <!-- OVERLAY -->
       <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
-      <div class="relative z-10 w-full flex flex-col items-center">
-        <img src="img/tituloGaleria.png" alt="Galeria" class="mb-6" />
+
+      <div class="relative z-10 max-w-7xl mx-auto">
+        <!-- CABEÇALHO “GALERIA” ALINHADO À ESQUERDA -->
+        <div class="flex items-center mb-16 justify-start">
+          <h2 class="text-5xl font-extrabold border-l-8 border-white pl-4">
+            GALERIA
+          </h2>
+          <div
+            class="ml-4 w-28 h-1 bg-gradient-to-r from-white via-blue-500 to-transparent"
+          ></div>
+        </div>
 
         <!-- Container com setas + grade -->
         <div
-          class="w-[90%] h-[500px] bg-black bg-opacity-60 flex items-center justify-between px-4 relative"
+          class="w-full h-[500px] bg-black bg-opacity-60 flex items-center justify-between px-4 relative"
         >
           <!-- Seta Esquerda -->
           <button
@@ -184,7 +202,10 @@
           <!-- Grid 4x2 no centro -->
           <div class="w-[90%] h-[90%] grid grid-cols-4 grid-rows-2 gap-2">
             <div class="bg-white bg-opacity-10">
-              <img src="img/galeria1.jpg" class="w-full h-full object-cover" />
+              <img
+                src="img/Galeria/MATERIAL GALERIA/IMG_2326-6.JPG"
+                class="w-full h-full object-cover"
+              />
             </div>
             <div class="bg-white bg-opacity-10">
               <img src="img/galeria2.jpg" class="w-full h-full object-cover" />
@@ -335,132 +356,149 @@
         </div>
       </div>
     </section>
-    <!-- Seção "Pegue Suas Fotos" replicando o visual da imagem -->
+    <!-- SEÇÃO PEGUE SUAS FOTOS -->
     <section
-      class="relative bg-cover bg-center"
+      id="pegue-suas-fotos"
+      class="relative bg-cover bg-center min-h-screen w-full px-10 pt-20 pb-10"
       style="background-image: url('img/CivicRosa.png')"
     >
-      <!-- Overlay escuro -->
-      <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+      <!-- OVERLAY PRETO SEMI-TRANSPARENTE -->
+      <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
 
-      <!-- Conteúdo principal -->
-      <div
-        class="relative z-10 max-w-6xl mx-auto px-8 py-16 grid grid-cols-2 gap-8"
-      >
-        <!-- Carrossel de imagens -->
-        <div class="relative">
-          <div
-            class="absolute inset-y-1/2 left-0 transform -translate-y-1/2 p-2 bg-black bg-opacity-50 rounded-full cursor-pointer"
+      <div class="relative z-10 max-w-7xl mx-auto flex flex-col">
+        <!-- CABEÇALHO PADRÃO “PEGUE SUAS FOTOS” -->
+        <div class="flex items-center mb-4">
+          <h2
+            class="text-5xl font-extrabold border-l-8 border-white pl-4 text-white"
           >
-            <!-- seta esquerda -->
-            <span class="text-white text-2xl">‹</span>
-          </div>
-          <div class="overflow-hidden rounded-md border border-gray-700">
-            <!-- Aqui entra o slide ou imagem fixa -->
-            <img
-              src="/path/to/last-click.jpg"
-              alt="Últimos Clicks"
-              class="block w-full object-cover"
-            />
-          </div>
+            PEGUE SUAS FOTOS
+          </h2>
           <div
-            class="absolute inset-y-1/2 right-0 transform -translate-y-1/2 p-2 bg-black bg-opacity-50 rounded-full cursor-pointer"
-          >
-            <!-- seta direita -->
-            <span class="text-white text-2xl">›</span>
-          </div>
+            class="ml-4 w-28 h-1 bg-gradient-to-r from-white via-blue-500 to-transparent"
+          ></div>
         </div>
 
-        <!-- Chamada para ação -->
+        <!-- SUBTÍTULO CENTRALIZADO -->
+        <p class="text-2xl font-semibold text-white text-center mb-10">
+          ÚLTIMOS CLICKS!
+        </p>
+
         <div
-          class="flex flex-col justify-center items-start space-y-6 text-white"
+          class="flex flex-col lg:flex-row items-stretch lg:items-start gap-10"
         >
-          <h2 class="text-3xl font-extrabold uppercase">Pegue suas Fotos</h2>
-          <p class="text-xl font-semibold">Últimos Clicks!</p>
-
-          <!-- Botão receber alta qualidade -->
-          <a
-            href="https://wa.me/"
-            target="_blank"
-            class="inline-flex items-center bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-full transition"
+          <!-- CARROSSEL (50% largura em desktop) -->
+          <div
+            class="relative w-full lg:w-1/2 h-80 lg:h-[500px] rounded-md overflow-hidden border border-gray-600 bg-black bg-opacity-40"
           >
-            <svg class="w-6 h-6 mr-2 fill-current" viewBox="0 0 24 24">
-              <!-- ícone WhatsApp simples -->
-            </svg>
-            RECEBA EM ALTA QUALIDADE POR WHATSAPP E E-MAIL!
-          </a>
-
-          <!-- Botão principal -->
-          <a
-            href="#"
-            class="inline-block bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-bold px-8 py-4 rounded-full transition uppercase"
-          >
-            Pegue suas fotos
-          </a>
-
-          <!-- Ícones de pagamento -->
-          <div class="flex items-center space-x-4 mt-8">
-            <img src="/icons/mastercard.png" alt="Mastercard" class="h-8" />
-            <img src="/icons/elo.png" alt="Elo" class="h-8" />
-            <img src="/icons/amex.png" alt="American Express" class="h-8" />
-            <img src="/icons/pix.png" alt="Pix" class="h-8" />
+            <button
+              class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-2 rounded-full z-10"
+            >
+              ‹
+            </button>
+            <img
+              src="img/last-click.jpg"
+              alt="Últimos Clicks"
+              class="w-full h-full object-cover"
+            />
+            <button
+              class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-2 rounded-full z-10"
+            >
+              ›
+            </button>
           </div>
 
-          <!-- Pequeno texto LGPD -->
-          <p class="text-xs text-gray-400 mt-4">
-            Seus dados estão 100% protegidos conforme a Lei Geral de Proteção de
-            Dados Pessoais (Lei nº 13.709/2018 – LGPD). Aqui a privacidade vem
-            junto com a qualidade.
-          </p>
+          <!-- AÇÃO E INFO (50% largura em desktop) -->
+          <div class="w-full lg:w-1/2 flex flex-col justify-between text-white">
+            <!-- Botão vermelho WhatsApp/E-mail -->
+            <a
+              href="https://wa.me/"
+              target="_blank"
+              class="self-start bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-3 rounded-full transition mb-8 inline-flex items-center"
+            >
+              <!-- ícone WhatsApp -->
+              <svg class="w-6 h-6 mr-2 fill-current" viewBox="0 0 24 24"></svg>
+              RECEBA EM ALTA QUALIDADE POR WHATSAPP E E-MAIL!
+            </a>
+
+            <!-- CTA PRINCIPAL -->
+            <div class="text-center lg:text-left mb-8">
+              <p class="uppercase text-lg mb-2">CLIQUE ABAIXO E</p>
+              <a
+                href="#pegue-suas-fotos"
+                class="inline-block bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-bold px-10 py-4 rounded-full transition uppercase text-xl"
+              >
+                PEGUE SUAS FOTOS
+              </a>
+            </div>
+
+            <!-- LOGOS DE PAGAMENTO -->
+            <div class="flex items-center flex-wrap gap-6 mb-4">
+              <img src="icons/mastercard.png" alt="Mastercard" class="h-8" />
+              <img src="icons/elo.png" alt="Elo" class="h-8" />
+              <img src="icons/amex.png" alt="American Express" class="h-8" />
+              <img src="icons/pix.png" alt="Pix" class="h-8" />
+            </div>
+
+            <!-- DISCLAIMER LGPD -->
+            <p class="text-xs text-gray-400">
+              Seus dados estão 100% protegidos conforme a Lei Geral de Proteção
+              de Dados Pessoais (Lei nº 13.709/2018).
+            </p>
+          </div>
         </div>
       </div>
 
-      <!-- Botão flutuante WhatsApp -->
+      <!-- WhatsApp flutuante -->
       <a
         href="https://wa.me/"
         target="_blank"
         class="fixed bottom-6 right-6 w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center shadow-lg z-20"
       >
-        <svg class="w-8 h-8 fill-current text-white" viewBox="0 0 24 24">
-          <!-- ícone WhatsApp simples -->
-        </svg>
+        <svg class="w-8 h-8 fill-current text-white" viewBox="0 0 24 24"></svg>
       </a>
     </section>
-    <!-- Seção "Contato" com Tailwind legadonhada -->
+
+    <!-- SEÇÃO CONTATO -->
     <section
       id="contact"
-      class="relative bg-cover bg-center"
-      style="background-image: url('img/IMG_6472.JPG')"
+      class="relative bg-cover bg-center min-h-screen w-full px-10 pt-20 pb-10"
+      style="background-image: url('img/Skyline.png')"
     >
-      <!-- Overlay escuro -->
-      <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+      <!-- OVERLAY PRETO SEMI-TRANSPARENTE -->
+      <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
 
-      <!-- Cabeçalho da seção -->
-      <div class="relative z-10 max-w-6xl mx-auto px-8 py-16">
-        <div class="flex items-center mb-12">
-          <div class="bg-white px-4 py-2 rounded-r-lg">
-            <h2 class="text-3xl font-extrabold uppercase text-black">
-              Contato
-            </h2>
-          </div>
-          <div class="flex-1 h-2 bg-white ml-4 mr-8"></div>
+      <div class="relative z-10 max-w-7xl mx-auto flex flex-col">
+        <!-- CABEÇALHO PADRÃO “CONTATO” -->
+        <div class="flex items-center mb-16">
+          <h2
+            class="text-5xl font-extrabold border-l-8 border-white pl-4 text-white"
+          >
+            CONTATO
+          </h2>
+          <div
+            class="ml-4 w-28 h-1 bg-gradient-to-r from-white via-blue-500 to-transparent"
+          ></div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-white">
-          <!-- Logo e introdução -->
-          <div class="flex flex-col items-center md:items-start">
-            <img
-              src="/path/to/hero-logo.png"
-              alt="Herozila Logo"
-              class="w-48 mb-4"
-            />
+        <!-- CONTEÚDO PRINCIPAL (40/60) -->
+        <div class="flex flex-col md:flex-row items-start gap-12 text-white">
+          <!-- LADO ESQUERDO (40%): LOGO + “Desde 2020” centralizados -->
+          <div
+            class="w-full md:w-2/5 flex flex-col items-center justify-center space-y-4"
+          >
+            <!-- Logo ainda maior -->
+            <img src="img/WaterMarkHZ-2.png" alt="Herozila Logo" class="w-64" />
+            <!-- texto "Desde 2020" alinhado com base do logo -->
             <p class="italic text-lg">Desde 2020</p>
           </div>
 
-          <!-- Conteúdo e contatos -->
-          <div class="flex flex-col justify-between">
-            <!-- Texto de agradecimento -->
-            <div class="mb-8">
+          <!-- LINHA DIVISÓRIA BRANCA -->
+          <div class="hidden md:block w-px bg-white h-auto self-stretch"></div>
+
+          <!-- LADO DIREITO (60%): TEXTO E ÍCONES -->
+          <div class="w-full md:w-3/5 flex flex-col space-y-8">
+            <!-- Texto de agradecimento com margem à esquerda para não colar na linha -->
+            <div class="pl-4">
               <p>
                 Obrigado por visitar meu site e conhecer meu trabalho!<br />
                 Se chegou até aqui, já fico feliz — sinal de que a paixão por
@@ -471,56 +509,53 @@
                 Estou sempre disponível pra ouvir, conversar e eternizar o que
                 um dia já foi seu sonho.
               </p>
-              <p class="mt-4 font-bold">— Herozila.</p>
+              <p class="font-bold mt-4">— Herozila.</p>
             </div>
 
-            <!-- Lista de redes sociais -->
+            <!-- Redes sociais divididas em duas colunas -->
             <div
-              class="flex flex-col sm:flex-row sm:space-x-8 space-y-4 sm:space-y-0"
+              class="flex flex-col sm:flex-row sm:space-x-12 space-y-6 sm:space-y-0 pl-4"
             >
               <!-- Coluna 1 -->
-              <div class="flex-1">
+              <div class="space-y-6">
                 <a
                   href="https://instagram.com/herozi la"
                   target="_blank"
                   class="flex items-center space-x-3 hover:opacity-80"
                 >
-                  <svg class="w-8 h-8 fill-current text-white">
-                    <!-- ícone Insta -->
-                  </svg>
+                  <!-- ícone Instagram -->
+                  <svg class="w-8 h-8 fill-current text-white"></svg>
                   <span class="font-semibold">/Herozila</span>
                 </a>
                 <a
                   href="https://tiktok.com/@herozi la"
                   target="_blank"
-                  class="flex items-center space-x-3 mt-4 hover:opacity-80"
+                  class="flex items-center space-x-3 hover:opacity-80"
                 >
-                  <svg class="w-8 h-8 fill-current text-white">
-                    <!-- ícone TikTok -->
-                  </svg>
+                  <!-- ícone TikTok -->
+                  <svg class="w-8 h-8 fill-current text-white"></svg>
                   <span class="font-semibold">/@Herozila</span>
                 </a>
               </div>
+
               <!-- Coluna 2 -->
-              <div class="flex-1">
+              <div class="space-y-6">
                 <a
                   href="https://youtube.com/@herozi la"
                   target="_blank"
                   class="flex items-center space-x-3 hover:opacity-80"
                 >
-                  <svg class="w-8 h-8 fill-current text-white">
-                    <!-- ícone YouTube -->
-                  </svg>
+                  <!-- ícone YouTube -->
+                  <svg class="w-8 h-8 fill-current text-white"></svg>
                   <span class="font-semibold">/@Herozila</span>
                 </a>
                 <a
                   href="https://wa.me/"
                   target="_blank"
-                  class="flex items-center space-x-3 mt-4 hover:opacity-80"
+                  class="flex items-center space-x-3 hover:opacity-80"
                 >
-                  <svg class="w-8 h-8 fill-current text-white">
-                    <!-- ícone WhatsApp -->
-                  </svg>
+                  <!-- ícone WhatsApp -->
+                  <svg class="w-8 h-8 fill-current text-white"></svg>
                   <span class="italic">Clique para contato.</span>
                 </a>
               </div>
